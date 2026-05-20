@@ -5,7 +5,7 @@ while not (
     karen_rounds == 6 or stu_rounds == 6 or (karen_rounds == 5 and stu_rounds == 5)
 ):
 
-    round_winner = input("Who won the round? (Karen/Stu): ")
+    round_winner = input("Who won the round? (Karen/Stu): ").strip().title()
 
     match round_winner:
         case "Karen":
