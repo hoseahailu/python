@@ -1,11 +1,21 @@
-students = open("list_of_students.txt", "r")
-print(students.read())
+# students = open("list_of_students.txt", "r")
+# print(students.read())
 
-Hello = open("Hello_world.py", "x")
-Hello.close()
+# Hello = open("Hello_world.py", "x")
+# Hello.close()
 
-students = open("list_of_students.txt", "r")
+# students = open("list_of_students.txt", "r")
 
-print(students.read())
+# print(students.read())
 
-students.close()
+# students.close()
+
+# file = open("list_of_students",'a')
+
+
+with open("list_of_students.txt","r") as src :
+          data = src.read()
+
+
+with open("destination.txt","x") as dest :
+          data = dest.write(data)
