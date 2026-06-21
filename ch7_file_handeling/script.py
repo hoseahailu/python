@@ -13,9 +13,17 @@
 # file = open("list_of_students",'a')
 
 
-with open("list_of_students.txt","r") as src :
-          data = src.read()
+# with open("list_of_students.txt","r") as src :
+#           data = src.read()
 
 
-with open("destination.txt","x") as dest :
-          data = dest.write(data)
+# with open("destination.txt","x") as dest :
+#           data = dest.write(data)
+
+# with open("list_of_students.txt","r") as file:
+#     count = 0
+
+#     for line in file:
+#         count += 1
+
+# print("Number of lines:", count)
