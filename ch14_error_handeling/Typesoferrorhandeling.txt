@@ -1,0 +1,14 @@
+| Exception             | Meaning                                 |
+| --------------------- | --------------------------------------- |
+| `ValueError`          | Wrong value                             |
+| `TypeError`           | Wrong data type                         |
+| `ZeroDivisionError`   | Division by zero                        |
+| `IndexError`          | Invalid list index                      |
+| `KeyError`            | Dictionary key doesn't exist            |
+| `FileNotFoundError`   | File doesn't exist                      |
+| `NameError`           | Variable doesn't exist                  |
+| `AttributeError`      | Object doesn't have requested attribute |
+| `ImportError`         | Import problem                          |
+| `ModuleNotFoundError` | Module isn't installed/found            |
+| `PermissionError`     | Permission denied                       |
+| `OverflowError`       | Numeric result too large                |
